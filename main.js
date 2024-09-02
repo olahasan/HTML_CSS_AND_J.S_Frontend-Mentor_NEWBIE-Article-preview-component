@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector(".sh_box");
   const shareOptions = document.querySelector(".oo");
-  console.log(button);
-  console.log(shareOptions);
 
   button.addEventListener("click", () => {
     shareOptions.classList.toggle("hide");
