@@ -1,16 +1,21 @@
-let button = document.getElementsByClassName("sh_box")[0];
-let oo = document.getElementsByClassName("oo")[0];
-console.log(button);
-console.log(oo);
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.querySelector(".sh_box");
+  const shareOptions = document.querySelector(".oo");
+  console.log(button);
+  console.log(shareOptions);
 
-
-button.onclick = function () {
-
-    oo.classList.toggle("hide");
+  button.addEventListener("click", () => {
+    shareOptions.classList.toggle("hide");
     button.classList.toggle("color");
+  });
 
-
-    button.style.transition = ".5s";
-
-}
-
+  //   document.addEventListener("click", (event) => {
+  //     if (
+  //       !button.contains(event.target) &&
+  //       !shareOptions.contains(event.target)
+  //     ) {
+  //       shareOptions.classList.add("hide");
+  //       button.classList.remove("color");
+  //     }
+  //   });
+});

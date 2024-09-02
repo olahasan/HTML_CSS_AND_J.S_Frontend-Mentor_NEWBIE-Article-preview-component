@@ -1,91 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <title>Frontend Mentor | Article preview component</title>
+    <title>Frontend Mentor | Article preview component</title>
 
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
 
-  <!-- Main Template CSS File -->
-  <link rel="stylesheet" href="css/main.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
 
-  <!-- Font Awesome Library -->
-  <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normaloze.css" />
 
-  <!-- Render All Elements Normally -->
-  <link rel="stylesheet" href="css/normaloze.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-
-
-</head>
-
-<body>
-
-  <div class="card">
-    <div class="container">
-
-      <div class="photo_box">
-        <div class="image">
-          <img src="images/drawers.jpg" />
-        </div>
-      </div>
-
-      <div class="white_box">
-        <h3>
-          Shift the overall look and feel by adding these wonderful
-          touches to furniture in your home
-        </h3>
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps
-          it felt slightly bare and uninviting. I’ve got some simple tips
-          to help you make any room feel complete.
-        </p>
-
-        <div class="icons">
-          <div class="g_box">
-            <div class="foto">
-              <img src="images/avatar-michelle.jpg" />
-            </div>
-
-            <div class="text">
-              <h2>Michelle Appleton</h2>
-              <span>28 Jun 2020</span>
-            </div>
+  <body>
+    <div class="card">
+      <div class="container">
+        <div class="photo_box">
+          <div class="image">
+            <img
+              loading="lazy"
+              src="images/drawers.jpg"
+              alt="drawers picture"
+            />
           </div>
+        </div>
 
-          <div class="sh_box">
-            <img src="images/icon-share.svg" />
+        <div class="white_box">
+          <h3>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
 
-            <div class="oo hide">
-
-              <div class="share">
-                <span>Share</span>
-                <ul>
-                  <li><i class="fa-brands fa-square-facebook"></i></li>
-                  <li><i class="fa-brands fa-twitter"></i></li>
-                  <li><i class="fa-brands fa-pinterest"></i></li>
-                </ul>
+          <div class="icons">
+            <div class="g_box">
+              <div class="foto">
+                <img
+                  loading="lazy"
+                  src="images/avatar-michelle.jpg"
+                  alt="avatar-michelle girl picture"
+                />
               </div>
 
-              <div class="arr"></div>
-
+              <div class="text">
+                <h2>Michelle Appleton</h2>
+                <span>28 Jun 2020</span>
+              </div>
             </div>
 
+            <div class="sh_box">
+              <img
+                loading="lazy"
+                src="images/icon-share.svg"
+                alt="arrow share icon"
+              />
+
+              <div class="oo hide">
+                <div class="share">
+                  <span>Share</span>
+                  <ul>
+                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-pinterest"></i></li>
+                  </ul>
+                </div>
+
+                <div class="arr"></div>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-
     </div>
-  </div>
-  <script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
